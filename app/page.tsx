@@ -66,10 +66,12 @@ export default function Home() {
                 <span className="text-[#00ff88]">PRECISION</span>
               </h1>
 
-              <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl font-medium">
-                Leading manufacturer of automotive spare parts, hydraulic hose pipes,
-                and industrial fittings. Engineering excellence for a connected world.
-              </p>
+              <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl">
+  Global importers, manufacturers, and exporters of automotive spare parts,
+  hydraulic hose systems, and industrial fittings — delivering precision
+  engineering at competitive prices.
+</p>
+
 
               <div className="flex flex-wrap gap-4">
                 <Link
