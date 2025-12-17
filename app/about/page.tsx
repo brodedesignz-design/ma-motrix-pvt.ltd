@@ -36,17 +36,32 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold mb-6">Who We Are</h2>
 
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              MA MOTRIX (PVT) LTD is a premier manufacturer and supplier of high-quality
-              industrial components. With years of experience, we specialize in
-              automotive spare parts, hydraulic systems, and precision-engineered fittings.
-            </p>
+<p className="text-gray-600 mb-6 leading-relaxed">
+  MA MOTRIX (PVT) LTD is a trusted industrial company specializing in the
+  import, manufacturing, and export of high-quality automotive and
+  industrial components.
+</p>
 
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              By combining advanced manufacturing technology with strict quality control,
-              we ensure every product meets international standards of performance,
-              durability, and reliability.
-            </p>
+<p className="text-gray-600 mb-6 leading-relaxed">
+  We source premium-grade parts and raw materials from leading international
+  markets including the USA, China, and other global manufacturing hubs.
+  These imported components are carefully selected to meet international
+  quality standards and are further processed, assembled, and manufactured
+  in-house to ensure reliability, durability, and performance.
+</p>
+
+<p className="text-gray-600 mb-6 leading-relaxed">
+  Our integrated supply chain allows us to offer cost-effective solutions
+  without compromising on quality. By combining global sourcing with local
+  manufacturing expertise, we serve automotive, hydraulic, and industrial
+  sectors efficiently.
+</p>
+
+<p className="text-gray-600 leading-relaxed">
+  With a strong focus on precision engineering, competitive pricing, and
+  timely delivery, MA MOTRIX (PVT) LTD continues to build long-term
+  partnerships with clients across domestic and international markets.
+</p>
 
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-700">
