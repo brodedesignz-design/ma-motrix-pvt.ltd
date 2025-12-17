@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
+import { Montserrat } from "next/font/google";
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+/* BRAND FONT (LOGO STYLE) */
+const brandFont = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "MA MOTRIX (PVT) LTD - The Power of Precision",
@@ -19,40 +22,46 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="font-sans antialiased bg-black text-white">
-        {/* HEADER (mobile + home inside) */}
+      <body
+        className={`${brandFont.className} antialiased bg-black text-white`}
+      >
+        {/* HEADER */}
         <Header />
 
         {/* MAIN */}
         <main className="pt-20 min-h-screen">{children}</main>
 
-        {/* FOOTER – SAME AS BEFORE */}
+        {/* FOOTER */}
         <footer className="bg-zinc-900 border-t border-white/10 py-12">
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">
+                <h3 className="text-xl font-bold tracking-wide mb-4">
                   MA MOTRIX (PVT) LTD
                 </h3>
-                <p className="text-gray-400 text-sm">
+                <p className="text-gray-400 text-sm leading-relaxed">
                   Precision engineering for the modern world. Delivering
                   excellence in every component.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold mb-4">Quick Links</h4>
+                <h4 className="font-semibold mb-4 tracking-wide">
+                  Quick Links
+                </h4>
                 <ul className="space-y-2 text-sm text-gray-400">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about">About Us</a></li>
-                  <li><a href="/products">Products</a></li>
-                  <li><a href="/portfolio">Portfolio</a></li>
-                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/" className="hover:text-white">Home</a></li>
+                  <li><a href="/about" className="hover:text-white">About Us</a></li>
+                  <li><a href="/products" className="hover:text-white">Products</a></li>
+                  <li><a href="/portfolio" className="hover:text-white">Portfolio</a></li>
+                  <li><a href="/contact" className="hover:text-white">Contact</a></li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold mb-4">Products</h4>
+                <h4 className="font-semibold mb-4 tracking-wide">
+                  Products
+                </h4>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>Hydraulic Hoses</li>
                   <li>Industrial Fittings</li>
@@ -62,13 +71,15 @@ export default function RootLayout({
               </div>
 
               <div>
-                <h4 className="font-bold mb-4">Contact</h4>
+                <h4 className="font-semibold mb-4 tracking-wide">
+                  Contact
+                </h4>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>mamotrixpvtltd@gmail.com</li>
                   <li>0325-3450683</li>
                   <li>
-                    Shop no.20 Ground floor Madina Plaza opposite mama parsi
-                    school main MA Jinnah Road, Karachi
+                    Shop no.20 Ground floor Madina Plaza opposite Mama Parsi
+                    School, MA Jinnah Road, Karachi
                   </li>
                 </ul>
               </div>
