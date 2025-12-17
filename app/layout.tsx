@@ -67,6 +67,7 @@ export default function RootLayout({
                   <li>Industrial Fittings</li>
                   <li>Automotive Parts</li>
                   <li>Teflon Pipes</li>
+                  <li>Crimping Machine</li>
                 </ul>
               </div>
 
