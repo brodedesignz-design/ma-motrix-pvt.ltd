@@ -9,9 +9,26 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold tracking-wider text-white">
-          MA MOTRIX PVT. LTD
-        </Link>
+      <h1 className="flex items-center gap-2 select-none">
+  {/* MA */}
+  <span className="text-3xl font-extrabold italic tracking-wide">
+    <span className="text-[#C9A227]">M</span>
+    <span className="text-[#00ff88]">A</span>
+  </span>
+
+  {/* MOTRIX */}
+  <span className="text-3xl font-extrabold italic text-white tracking-wide">
+    MOTRIX
+  </span>
+
+  {/* (Pvt) Ltd. */}
+  <span className="text-sm text-gray-300 ml-1 mt-2">
+    (Pvt) Ltd.
+  </span>
+</h1>
+
+
+
 
         {/* Desktop */}
         <nav className="hidden md:flex items-center gap-8 text-gray-300">
