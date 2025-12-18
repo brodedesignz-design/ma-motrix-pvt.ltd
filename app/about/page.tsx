@@ -8,9 +8,25 @@ export default function AboutPage() {
       {/* HEADER */}
       <section className="bg-[#0a0a0a] text-white py-20">
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            About <span className="text-[#00ff88]">MA MOTRIX (PVT) LTD</span>
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 flex flex-wrap items-center gap-3">
+  <span>About</span>
+
+  {/* MA */}
+  <span className="italic font-extrabold tracking-wide">
+    <span className="text-[#C9A227]">M</span>
+    <span className="text-[#00ff88]">A</span>
+  </span>
+
+  {/* MOTRIX */}
+  <span className="italic font-extrabold text-white tracking-wide">
+    MOTRIX
+  </span>
+
+  {/* PVT LTD */}
+  <span className="text-base md:text-lg text-gray-400 mt-2">
+    (Pvt) Ltd.
+  </span>
+</h1>
           <p className="text-gray-400 max-w-2xl">
             Building the future of industrial manufacturing with precision and innovation.
           </p>

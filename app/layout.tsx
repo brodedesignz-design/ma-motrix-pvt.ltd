@@ -36,9 +36,20 @@ export default function RootLayout({
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold tracking-wide mb-4">
-                  MA MOTRIX (PVT) LTD
-                </h3>
+                <h3 className="flex items-center gap-2 mb-4">
+  <span className="text-2xl font-extrabold italic">
+    <span className="text-[#C9A227]">M</span>
+    <span className="text-[#00ff88]">A</span>
+  </span>
+
+  <span className="text-2xl font-extrabold italic text-white">
+    MOTRIX
+  </span>
+
+  <span className="text-sm text-gray-400 mt-1">
+    (Pvt) Ltd.
+  </span>
+</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Precision engineering for the modern world. Delivering
                   excellence in every component.
