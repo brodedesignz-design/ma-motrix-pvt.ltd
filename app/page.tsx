@@ -62,8 +62,8 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-7xl font-extrabold tracking-wide leading-tight mb-6">
-                THE POWER OF <br />
-                <span className="text-[#00ff88]">PRECISION</span>
+                BUILT TO <br />
+                <span className="text-[#00ff88]">FULLFILL</span>
               </h1>
 
               <p className="text-gray-300 text-base md:text-lg mb-8 max-w-xl">
