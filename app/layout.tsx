@@ -10,7 +10,7 @@ const brandFont = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "MA MOTRIX (PVT) LTD - The Power of Precision",
+  title: "MA MOTRIX (PVT) LTD - BUILT TO FULLFILL",
   description:
     "Industrial solutions for automotive spare parts, hydraulic hoses, and more.",
 };
