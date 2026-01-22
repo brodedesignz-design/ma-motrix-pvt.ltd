@@ -6,7 +6,7 @@ import { MessageCircle, X } from "lucide-react";
 export default function WhatsAppToggle() {
   const [open, setOpen] = useState(false);
 
-  const phoneNumber = "0325-3450683";
+  const phoneNumber = "923253450683"; // ✅ WhatsApp correct format
   const message = "Hello MA Motrix, I need information.";
 
   return (
