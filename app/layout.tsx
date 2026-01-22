@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
 import { Montserrat } from "next/font/google";
+import WhatsAppToggle from "@/components/WhatsAppToggle";
 
 /* BRAND FONT (LOGO STYLE) */
 const brandFont = Montserrat({
@@ -37,19 +38,19 @@ export default function RootLayout({
             <div className="grid md:grid-cols-4 gap-8">
               <div>
                 <h3 className="flex items-center gap-2 mb-4">
-  <span className="text-2xl font-extrabold italic">
-    <span className="text-[#C9A227]">M</span>
-    <span className="text-[#00ff88]">A</span>
-  </span>
+                  <span className="text-2xl font-extrabold italic">
+                    <span className="text-[#C9A227]">M</span>
+                    <span className="text-[#00ff88]">A</span>
+                  </span>
 
-  <span className="text-2xl font-extrabold italic text-white">
-    MOTRIX
-  </span>
+                  <span className="text-2xl font-extrabold italic text-white">
+                    MOTRIX
+                  </span>
 
-  <span className="text-sm text-gray-400 mt-1">
-    (Pvt) Ltd.
-  </span>
-</h3>
+                  <span className="text-sm text-gray-400 mt-1">
+                    (Pvt) Ltd.
+                  </span>
+                </h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Precision engineering for the modern world. Delivering
                   excellence in every component.
@@ -102,6 +103,10 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+
+        {/* WHATSAPP FLOATING BUTTON */}
+        <WhatsAppToggle />
+
       </body>
     </html>
   );
