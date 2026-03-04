@@ -32,7 +32,7 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-bold mb-1">Visit Us</h4>
                   <p className="text-gray-600 text-sm">
-                    Shop no.20 Ground floor Madina Plaza opposite mama parsi school main MA Jinnah Road, Karachi<br />
+                    Shop no.09 Behind Madina Plaza, MA Jinnah Road, Karachi<br />
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-bold mb-1">Working Hours</h4>
                   <p className="text-gray-600 text-sm">
-                    Mon - Sat: 9:00 AM - 6:00 PM<br />
+                    Mon - Sat: 10:00 AM - 8:00 PM<br />
                     Sunday: Closed
                   </p>
                 </div>

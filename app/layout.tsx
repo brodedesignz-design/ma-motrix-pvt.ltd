@@ -91,8 +91,8 @@ export default function RootLayout({
                   <li>mamotrixpvtltd@gmail.com</li>
                   <li>0325-3450683</li>
                   <li>
-                    Shop no.20 Ground floor Madina Plaza opposite Mama Parsi
-                    School, MA Jinnah Road, Karachi
+                    Shop no.09 Behind Madina Plaza
+                    , MA Jinnah Road, Karachi
                   </li>
                 </ul>
               </div>
